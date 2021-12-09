@@ -81,7 +81,7 @@ def plotPLA (w, train_data, test_data):
     
 def run_algorithm (highest_accuracy):
     # Read the csv file
-    dataset = pd.read_csv('./PLA/PLA2.csv').to_numpy()
+    dataset = pd.read_csv('./PLA/PLA.csv').to_numpy()
     # Split the data set
     train_data, test_data = split (dataset, 0.8)
     # Train the data
